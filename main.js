@@ -3,11 +3,11 @@ const chat = document.getElementById("chatElem");
 document.getElementById("chatButton").addEventListener("click", myScript);
 
 function myScript() {
-    if (chat.style.display == "none") {
-        chat.style.display = "block";
-        console.log("Is visible")
+    if (chat.value == 0) {
+        chat.classList.add("addChat");
+        chat.value = 1
     } else {
-        chat.style.display = "none";
-        console.log("Is not visible")
+        chat.classList.remove("addChat");
+        chat.value = 0
     }
 }
