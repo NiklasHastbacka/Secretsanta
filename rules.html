@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,36 @@
 
 
 </head>
-<body>
-    <header id="rules">
-        <div class="rule"><a href="login.html">Lorem</a> ipsum dolor sit amet consectetur adipisicing elit. Sit ipsa nisi doloremque sed non provident aliquam delectus id minus quasi nam, dolore dolores, consectetur pariatur commodi vel quae debitis ducimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quasi voluptatibus dolores ipsum facilis delectus aut, illo non beatae incidunt! Nisi dolorum perspiciatis fugit quod esse, minus quaerat pariatur repellendus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis praesentium quisquam numquam vitae aperiam officiis molestiae libero quam aliquam. Ad non dicta cupiditate magnam corporis autem. Non exercitationem nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eius pariatur eaque dolore rem adipisci nobis quaerat ea, nihil aliquam sed iste voluptate temporibus cum consectetur maxime facere autem id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt adipisci voluptatem animi eius excepturi eligendi nisi eveniet pariatur officia. Atque eveniet soluta ipsa nostrum voluptates laborum enim minima ea veniam.</div>
-    </header>
-    <div id="chatElem"></div>
-    <div id="chatButton" value="0"><ion-icon name="chatboxes"></ion-icon></div>
 
+<body>
+    <div class="center">
+        <div class="rule">
+            <p> <strong>Rules</strong><br>the game is supposed to be fun, and you want the unwrapping ceremony to be
+                funny. <br> If everybody is receiving a tin of Quality Street or a £10 voucher for Next, then sure, it’s
+                nice – but it would also suggest that there isn’t much morale or team bonding going on in your office.
+                <br> When choosing a funny gift, keep the joke simple, and ideally one that makes sense to everyone –
+                especially the recipient. <br> The last thing you want to do is offend or confuse someone, so if you’re
+                going for a more risqué approach, judge your work environment and be sure that people will find it
+                funny. If you’re going to get your boss a copy of 'Management for Dummies', then you’d better be sure
+                that they have a sense of humour!</p>
+        </div>
+        <div id="chatElem">
+            <div id="title">TomtSupport</div>
+            <div id="chat"></div>
+            <div id="chatInput"><textarea placeholder="Type message.." name="msg" required></textarea><button
+                    type="submit" class="btn">Send</button></div>
+        </div>
+        <div id="chatButton" value="0">
+            <ion-icon name="chatboxes"></ion-icon>
+        </div>
+    </div>
+
+    <section class="center">
+        <a href="match.html"><button type="button" class="match">Match</button></a>
+    </section>
 
     <script src="main.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 </body>
+
 </html>
